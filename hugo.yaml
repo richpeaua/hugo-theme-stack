@@ -1,9 +1,8 @@
-baseurl: https://example.com
+baseurl: https://peaua.io
 languageCode: en-us
-theme: hugo-theme-stack
 paginate: 3
-title: Example Site
-copyright: Example Person
+title: PeauaIO
+copyright: PeauaIO
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -16,28 +15,15 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: PeauaIO
         weight: 1
         params:
-            description: Example description
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-        params:
-            description: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            description: وصف تجريبي
+            description: Blog
 
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname: "hugo-theme-stack"
+        shortname: "peauaio"
     # GA Tracking ID
     googleAnalytics:
         id:
@@ -63,11 +49,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: Software | DevOps | Platform Engineering | Site Reliability Engineering | DevSecOps
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/profpic.jpeg
 
     article:
         math: false
@@ -211,15 +197,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/richpeaua
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: x
+          name: X
+          url: https://x.com/peauaio
           params:
-              icon: brand-twitter
+              icon: brand-x
 
 related:
     includeNewer: true
